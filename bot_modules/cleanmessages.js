@@ -1,13 +1,9 @@
 let botConfig = require('../config.json');
 let serverConfig = require('../server_config');
 
-let help = null;
-
-let commandHandlers = {}
+let commandHandlers = {};
 
 commandHandlers.clean = function (message, args){
-    if (message == "clean")
-    {
+        console.log(message);
         message.channel.send("test");
-    }
-}
+};
