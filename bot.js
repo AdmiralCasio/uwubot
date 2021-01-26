@@ -12,7 +12,7 @@ modules.autoroles = require('./bot_modules/autoroles.js');
 modules.animals = require('./bot_modules/animals.js');
 modules.copypasta = require('./bot_modules/copypasta.js');
 modules.rationals = require('./bot_modules/rationals.js');
-modules.clean = require('./bot_modules/cleanmessages.js');
+modules.cleanmessages = require('./bot_modules/cleanmessages.js');
 
 let help = "**uwubot** version whatever\n";
 help += "\n";
@@ -60,7 +60,7 @@ client.on('ready', () => {
 
   // Set game status
 
-  client.user.setGame("!uwuhelp | https://github.com/MalHT/uwubot");
+  client.user.setActivity("!uwuhelp | https://github.com/MalHT/uwubot");
 
 });
 
